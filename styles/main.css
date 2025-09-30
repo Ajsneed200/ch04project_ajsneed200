@@ -1,1 +1,59 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
 
+@media print, screen and (min-width: 480px) {
+	.menu-burger, .menu-chkbx, .hamburger {
+	display:none;
+	
+	}
+}
+
+header {
+  width: 100%;
+  margin: 0px 5px 0px 5px;
+  background-color: rgb(111, 0, 255);
+  text-align: center;
+  align-items: auto;
+}	
+
+
+nav {
+	width: 100px;
+	float: left;
+}
+	
+nav ul {
+	display: flex;
+    padding-left: 0px;
+	text-indent: 12px; 
+    list-style-type: none; 
+	align-items: auto;
+}
+
+section {
+	height: 100%;
+	width: 100%;
+}
+
+.image-flex {
+	height:100%;
+	width: 100%;
+  	align-items: auto;
+	justify-content: space-around;
+  	display: flex; 
+}
+
+img {
+    max-width: 200px;
+    max-height: 200px;
+	display: flex;
+	height: auto; 
+	align-items: auto;
+}
+
+footer {
+	text-align: center;
+	align-items: auto;
+}
